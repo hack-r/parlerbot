@@ -1,0 +1,56 @@
+{
+  "name": "@hack-r/parlerbot",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Parler.com client library with bot functionality",
+  "author": "Hack-R and Libre Agora LLC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hack-r/parlerbot.git"
+  },
+  "dependencies": {
+    "@hack-r/ioh": "^0.0.4",
+    "@hack-r/strr": "^0.0.1",
+    "bent": "^7.3.6",
+    "jsDump": "^1.1.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "chai-as-promised": "^7.1.1"
+  },
+  "optionalDependencies": {
+    "node-postgres": "^0.6.2"
+  },
+  "bin": {
+    "parlerbot": "bin/parlerbot"
+  },
+  "bugs": {
+    "url": "https://github.com/hack-r/parlerbot/issues"
+  },
+  "homepage": "https://github.com/hack-r/parlerbot#readme",
+  "main": "src/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "osint",
+    "parler",
+    "speech",
+    "twitter"
+  ],
+  "files": [
+    "*.md",
+    "bin",
+    "src",
+    "test",
+    "docs"
+  ],
+  "Make": {
+    "America": "Great Again!"
+  }
+}
